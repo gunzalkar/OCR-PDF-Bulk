@@ -29,7 +29,7 @@ def convertPDF2OCR(file):
 def PDF2PNG(filename):
     path=filename[:-4]
     print("folder to save images: ",path)
-    pdf = pdfium.PdfDocument(sys.argv[1]+'\\'+filename)
+    pdf = pdfium.PdfDocument(sys.argv[1]+'/'+filename)
     if not os.path.exists(os.path.join(sys.argv[1],path)): 
         os.mkdir(os.path.join(sys.argv[1],path))
     n_pages = len(pdf)
