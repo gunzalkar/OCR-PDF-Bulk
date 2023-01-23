@@ -1,0 +1,8 @@
+aspose-word
+ocrmypdf
+pypdfium2
+fpdf
+subprocess
+re
+sys
+os
